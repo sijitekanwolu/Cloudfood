@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-home{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.585), rgba(44, 44, 44, 0.702)), 
+    url("https://i.pinimg.com/564x/0a/9a/99/0a9a99abce1ab4035a1acd92269fb88a.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header.sticky{
+    @apply backdrop-blur-sm bg-gray-700/70 fixed
+    transition-transform
+}
+
+.bg-footer{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.585), rgba(44, 44, 44, 0.702)), 
+    url("https://fotkom401.id/wp-content/uploads/2022/10/IMG_0960-1024x683.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
