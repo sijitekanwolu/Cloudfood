@@ -17,8 +17,8 @@
 }
 
 header.sticky{
+    transition: .3s;
     @apply backdrop-blur-sm bg-gray-700/70 fixed
-    transition-transform
 }
 
 .bg-footer{
